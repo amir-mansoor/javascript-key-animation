@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Key Animation</title>
+	<link rel="shortcut icon" href="favcion.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="keys">
+		<div data-key="65" class="key">
+			<kbd>A</kbd>
+			<span class="sound">Left</span>
+		</div>
+		<div data-key="83" class="key">
+			<kbd>S</kbd>
+			<span class="sound">Right</span>
+		</div>
+		<div data-key="68" class="key">
+			<kbd>D</kbd>
+			<span class="sound">Up</span>
+		</div>
+		<div data-key="70" class="key">
+			<kbd>F</kbd>
+			<span class="sound">Eat</span>
+		</div>
+		<div data-key="71" class="key">
+			<kbd>G</kbd>
+			<span class="sound">Down</span>
+		</div>
+		<div data-key="72" class="key">
+			<kbd>H</kbd>
+			<span class="sound">Dead</span>
+		</div>
+	</div>
+
+	<audio data-key="65" src="audio/left.mp3"></audio>
+	<audio data-key="83" src="audio/right.mp3"></audio>
+	<audio data-key="68" src="audio/up.mp3"></audio>
+	<audio data-key="70" src="audio/eat.mp3"></audio>
+	<audio data-key="71" src="audio/down.mp3"></audio>
+	<audio data-key="72" src="audio/dead.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+
+</html>
